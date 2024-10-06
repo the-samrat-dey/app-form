@@ -1,26 +1,43 @@
 {
   "name": "@samratdey/app-form",
-  "description": "App Form",
+  "description": "A custom form handling library for both frontend and backend validation",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "",
+  "homepage": "https://github.com/the-samrat-dey/app-form#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/the-samrat-dey/app-form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/the-samrat-dey/app-form/issues"
   },
   "scripts": {
     "build": "tsup"
   },
   "keywords": [
+    "form",
+    "validation",
     "typescript",
-    "npm-package"
+    "frontend",
+    "backend"
   ],
-  "author": "Samrat Dey",
+  "author": "Samrat Dey <mail.samrat.dey@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^8.3.0",
     "typescript": "^5.6.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
