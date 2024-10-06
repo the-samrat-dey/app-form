@@ -1,5 +1,5 @@
 {
-  "name": "app-form",
+  "name": "@samratdey/app-form",
   "description": "App Form",
   "version": "1.0.0",
   "main": "./dist/index.js",
@@ -8,7 +8,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/the-samrat-dey/app-form.git"
   },
   "scripts": {
     "build": "tsup"
